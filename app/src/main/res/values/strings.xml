@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_message">Refreshing Articles</string>
+    <string name="empty">No Articles</string>
+    <string name="network_error">No Connection</string>
+</resources>

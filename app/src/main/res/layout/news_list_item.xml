@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/lista">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/list_card"
+        style="@style/card"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout style="@style/text_holder">
+
+            <TextView
+                android:id="@+id/titulo"
+                style="@style/titulo"
+                tools:text="Long placeholder location that should wrap to more than 2 lines of text or more" />
+
+            <LinearLayout
+                style="@style/date_section_layout">
+
+                <TextView
+                    android:id="@+id/fecha"
+                    style="@style/fecha"
+                    tools:text="MMMMMM, dd. yyyy" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/seccion"
+                    style="@style/seccion"
+                    tools:text="Section" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
